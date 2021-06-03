@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="public/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container-fluid header">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-12 col-lg-6 p-0">
+            <ul class="nav align-items-center justify-content-between">
+
+                <li class="nav-item logo">
+                    <a href="#"><img src="public/img/toul.png" width="180px"></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">de</a> |
+                    <a href="#">en</a> |
+                    <a href="#">fr</a> |
+                    <a href="#">it</a>
+                </li>
+                <li class="nav-item">
+                    <div class="input-group">
+                        <input type="text" class="input-search" placeholder="Recherche..." aria-label="Recherche..." aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-search" type="button"><i class="bi bi-search"></i></button>
+                        </div>
+                    </div>
+
+                </li>
+                <li class="nav-item label1">
+                    <img src="public/img/logo_detour.png" width="40px">
+                </li>
+                <li class="nav-item label2">
+                    <img src="public/img/logo_ville_fleurie.png" width="80px">
+                </li>
+
+                <li class="nav-item reseaux">
+                    <a href="#"><img src="public/img/fb.png" width="20px"></a>
+                    <a href="#"><img src="public/img/insta.png" width="20px"></a>
+
+                </li>
+
+                <li class="nav-item btn-cache">
+                    <button class="btn btn-primary btn-menu" id="btnMenu" type="button">
+
+                    </button>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="row justify-content-center">
+
+        <div class="col-sm-12 col-md-12 col-lg-2">
+            <ul class="menu nav flex-column" id="menu">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Découvrir Toul</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Vie pratique</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Éducation Jeunesse</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Famille Solidarité</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Je participe</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Cadre de vie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sport Culture</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Vie économique</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link last" href="#">Vie municipale</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="pannel col-sm-12 col-md-12 col-lg-7 justify-content-center p-0">
+            <div class="slider col-lg-11 mx-auto">
+                <div id="carousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target=".carousel" data-slide-to="0" class="active"></li>
+                        <li data-target=".carousel" data-slide-to="1"></li>
+                        <li data-target=".carousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="public/img/slide1.jpg" alt="Actu">
+                            <div class="carousel-caption">
+                                <h1>A la une</h1>
+                                <p>Lorem ipsim</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="public/img/slide2.jpg" alt="Actu">
+                            <div class="carousel-caption">
+                                <h1>Un autre tigre</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+                <hr>
+
+            </div>
+
+
+            <div class="actus container col-lg-11 mx-auto">
+                <div class="row m-0">
+                    <div class="col-lg-6 actu">
+                        <img class="image-originale" src="public/img/actu1.jpg" />
+                        <div class="texte-original">
+                            <h2>800 ans de la cathédrale</h2>
+                            <p>Lorem ipsum</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 actudroite flex-column">
+                        <div class="d-flex flex-row">
+                            <img src="public/img/actu2.jpg">
+                            <h2>Bonjour</h2>
+                        </div>
+                        <div>
+                            <img src="public/img/actu2.jpg">
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+        <ul class="zapette col-sm-12 col-md-12 col-lg-2 nav">
+            <li class="nav-item clic">
+                "Toul.fr"
+                <br>
+                en 1 clic
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="public/img/logoMairie.png" width="50px">Mairie en ligne</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="public/img/date.png" width="50px">Agenda</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="public/img/person.png" width="50px">Associations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="public/img/cinema.png" width="50px">Citéa</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="public/img/famille.png" width="50px">Portail Famille</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link last" href="#"><img src="public/img/contact.png" width="50px">Contact</a>
+            </li>
+        </ul>
+
+
+
+
+
+
+
+
+    </div>
+
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="public/js/script.js"></script>
+
+</body>
+</html>
